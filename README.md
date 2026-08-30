@@ -115,6 +115,14 @@ The gap between the weighted F1 (0.94) and macro F1 (0.91) reflects the class im
 
 ## Repository Contents
 
+| File | Description |
+|---|---|
+| `track1_participant_dataset.csv` | Original raw dataset (150,000 rows) |
+| `clean_and_examine.py` | Cleaning, examination, split, balancing, and scaling pipeline |
+| `track1_participant_dataset_cleaned.csv` | Cleaned dataset (whitespace trimmed, `bmi_flag` added) |
+| `track1_train_balanced_scaled.csv` | Training set: balanced (SMOTENC + undersampling) and scaled |
+| `track1_test_scaled.csv` | Held-out test set: original class distribution, scaled using training-set statistics |
+
 ### Requirements
 
 ```
