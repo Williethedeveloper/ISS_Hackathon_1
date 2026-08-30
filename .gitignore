@@ -1,0 +1,8 @@
+# Excel files
+*.xlsx
+*.xls
+*.xlsm
+
+# Python build artifacts
+__pycache__/
+*.pyc
